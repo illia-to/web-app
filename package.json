@@ -1,0 +1,22 @@
+{
+  "name": "eventurize",
+  "version": "1.0.0",
+  "description": "Eventurize server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/illia-to/web-app.git"
+  },
+  "author": "Illia T.",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/illia-to/web-app/issues"
+  },
+  "homepage": "https://github.com/illia-to/web-app#readme",
+  "dependencies": {
+    "express": "^4.15.3"
+  }
+}
