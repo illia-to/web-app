@@ -10,7 +10,7 @@ module.exports = {
       key: '~/.ssh/eventurize-key-pair.pem',
       ref: 'origin/master',
       repo: 'git@github.com:illia-to/web-app.git',
-      path: '/home/ubuntu/server/',
+      path: '/home/ubuntu/server',
       'post-deploy': 'npm install && pm2 startOrRestart ecosystem.config.js'
     }
   }
